@@ -35,4 +35,4 @@
 
 ## Level 6
   1. Use Third Party OAuth2.0
-  2. Google OAuth2.0 is used in this level for authorization
+  2. Google OAuth2.0 is used in this level for Authentication
