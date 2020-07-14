@@ -13,16 +13,16 @@
   1. Hash password and store in database
   2. if common can be cracked using dictionary, hash table attack
   3. password must be long 
-      e.g. Time to crack password
-      123456 : 3sec
-      123456123456 : 31 years
+      - e.g. Time to crack password
+        123456 : 3sec
+        123456123456 : 31 years
 
 ## Level 4
   1. salt round : add extra charaters in password and then hash the password then pass the result to next round 
   2. qcrypt is used to do salt round ( 10 salt rounds are use in Level 4)
   3. Even if two users have same password the result of salt + hash password will be different
-      e.g. 
-        `With just hashing
+      - e.g. 
+        With just hashing
         123456 : e10adc3949ba59abbe56e057f20f883e
         
         With salting and hashing
