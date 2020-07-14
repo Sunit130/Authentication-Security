@@ -12,10 +12,10 @@
 ## Level 3
   1. Hash password and store in database
   2. if common can be cracked using dictionary, hash table attack
-  3. password must be long \
+  3. password must be long 
       - e.g. Time to crack password\
         123456 : 3sec\
-        123456123456 : 31 years\
+        123456123456 : 31 years
 
 ## Level 4
   1. salt round : add extra charaters in password and then hash the password then pass the result to next round 
@@ -27,7 +27,7 @@
         \
         With salting and hashing\
         123456 : 07dbb6e6832da0841dd79701200e4b179f1a94a7b3dd26f612817f3c03117434\
-        123456 : 11c150eb6c1b776f390be60a0a5933a2a2f8c0a0ce766ed92fea5bfd9313c8f6\
+        123456 : 11c150eb6c1b776f390be60a0a5933a2a2f8c0a0ce766ed92fea5bfd9313c8f6
         
  ## Level 5
   1. Passport is authentication middleware for Node. js. Extremely flexible and modular.
