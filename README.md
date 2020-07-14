@@ -22,12 +22,12 @@
   2. qcrypt is used to do salt round ( 10 salt rounds are use in Level 4)
   3. Even if two users have same password the result of salt + hash password will be different
       e.g. 
-        'With just hashing'
-        '123456 : e10adc3949ba59abbe56e057f20f883e'
+        `With just hashing`
+        `123456 : e10adc3949ba59abbe56e057f20f883e`
         
-        'With salting and hashing'
-        '123456 : 07dbb6e6832da0841dd79701200e4b179f1a94a7b3dd26f612817f3c03117434'
-        '123456 : 11c150eb6c1b776f390be60a0a5933a2a2f8c0a0ce766ed92fea5bfd9313c8f6'
+        `With salting and hashing`
+        `123456 : 07dbb6e6832da0841dd79701200e4b179f1a94a7b3dd26f612817f3c03117434`
+        `123456 : 11c150eb6c1b776f390be60a0a5933a2a2f8c0a0ce766ed92fea5bfd9313c8f6`
         
  ## Level 5
   1. Passport is authentication middleware for Node. js. Extremely flexible and modular.
